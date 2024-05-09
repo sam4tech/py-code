@@ -4,7 +4,7 @@ num = str (input("\nEnter a number :"))
 # end_value = int (input("\nEnter ending value :"))
 count = 0
 
-print("\COunt of all numbers")
+print("\Count of all numbers")
 for i in num :
     count = count + 1
 

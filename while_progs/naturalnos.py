@@ -5,5 +5,3 @@ s = int (input("Enter the step number: "))
 while(i<=n) :
     print(i)
     i=i+s
-
-

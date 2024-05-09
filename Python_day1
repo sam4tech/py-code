@@ -1,0 +1,105 @@
+
+Python Programming language
+--------------------------------------
+1. High level language
+2. Dynamic
+3. Open Source
+4. Interpreted 
+5. Supports Object oriented programming as well as procedural pragramming.
+6. No need to declare the variable types as it is dynamically typed. eg: x=50, x can be anything like string, int etc.
+
+
+FEATURES :
+1. Free and open source.
+2. Easy to code as it is high level language.
+3. Easy to read as it has no semicolons , no curly braces.
+4. Supports OOPs cocepts such as classes, objects etc.
+5. GUI programming support.
+6. EAsy to debug.
+7. Large community support.
+8. Portable as it is platform independent.
+9. It is an integrated language.
+10. Interpreted language because Python code is executed line by line at a time.
+11. Large standard library which provides a rich set of modules and functions so you do not have to write your own code for every single thing. 
+12. Dynamically Typed Language means the type (such as int, double, long) of  a variable is decided at run time.
+13. Frontend and backend development. 
+14. Allocating Memory Dynamically : Memory is automatically allocated to a variable at runtime.
+
+
+Difference between Python 2 and Python3  ?
+----------------------------------------------
+
+In the following table, you can find the main differences between Python 2 and 3.
+
+ 	
+
+
+Release date
+Python 2 : 2000
+Python 3 : 2008
+
+
+Syntax
+Python 2 : More complex and difficult to interprete
+Python 3 : Readable and easily understandable 
+
+
+Performance
+
+Python 2 : Slower performance due to design flaws
+Python 3 : Improved performance of the code’s runtime compared to Python 2
+
+print function
+
+Python 2 : print “Welcome to Datacamp”
+Python 3 : print (“Welcome to Datacamp”)
+
+Integer division
+
+Python 2 : The result is an integer value. Decimals are always truncated
+Python 3 : The result is always a float value
+
+Unicode support
+
+Python 2 : Uses by default ASCII characters. To store Unicode values, you need to define them using “u”
+Python 3 : The default storing of strings is Unicode
+
+Range
+
+Python 2 : xrange() function to create a sequence of numbers
+Python 3 : range() function is more efficient when iterating than xrange()
+
+Backward compatibility
+
+Python 2 : Relatively easy to port Python2 to Python 3.
+Python 3 is not backwardly compatible with python 2
+
+Libraries
+
+Python 2 : Many older libraries for Python 2 are not forward-compatible
+Python 3 : Most of the new libraries for Python 3 cannot be used in python 2
+
+
+
+Call by value  vs call by reference ?
+------------------------------------------
+Call By Value :- In Call by value the value(copy) of the parameters passed as formal argument ina function instead of the variable itself, so in this case if any modification applied to the function parameters it will not be reflected on the actual variable.
+
+Call By Reference :- In Call By Reference, the address(actual varible) of the variable is passed into the function call as the actual parameter. So, if any modification applied to the function parameters it will be reflected on the actual variable.**
+
+
+Python programming language uses the mechanism of the call-by-object and also call by object reference.
+Each object whenever it is instantiated ,it is assigned unique id and its type if defined at runtime and id(object) returns a unique identity (integer value) of that object.
+
+to move further into the topic first we have to understand mutable object and immutable object in python.
+
+Mutable Objects
+Datatypes that can be modified or if there state can be changed those objects are known as Mutable datatype
+like (list, dictionaries, set) .
+
+Immutable Objects
+Datatypes that cannot be modified or if there state cannot be changed those objects are known as Immutable datatype like **(int, float, bool, string, unicode, tuple).
+
+So when Mutable objects are passed to the function call then it is treated as ''call by value.''
+
+And When Immutable objects are passed to the function call and there value is modified then it is treated as ''call by reference.''

@@ -4,4 +4,3 @@ while( i>0 ) :
     rem = i%10
     sum = sum + (rem*rem)
     i=i//10
-print("Sum of squares of each digit : ", sum)
