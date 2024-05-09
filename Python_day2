@@ -17,4 +17,57 @@ The symbol for XOR in Python is '^'
 eg: num3 = num1 ^ num2
 
 
-1. 
+0 ^ 0 = 0
+0 ^ 1 = 1
+0 ^ 0 = 1
+0 ^ 0 = 0
+
+
+Question 3 : What is the life scope of a variable and what type of life scope  ?
+Solution : 
+Life scope of a variable is the location where we can find the variable and also access it if required.
+
+
+Its types :
+1. Local variable.
+2. Global variable.
+
+
+Local Variable :
+Variables that are initialized within a function, and are unique to that function. 
+It cannot be accessed outside of this function.
+
+Example :
+
+def func():
+ 
+    # local variable
+    s = "I love python"
+    print(s)
+ 
+# Driver code
+func()
+
+OUTPUT :
+I love python
+
+## If 's' is accessed outside the function func(), then it will give an error.
+
+Global Variable :
+Variables that are declared outside of any function , and are not specified to any function. 
+It can be used in any part of the program.
+
+Example :
+
+# This function uses global variable s
+def func():
+	print(s)
+
+
+# Global scope
+s = "I love python"
+func()
+
+OUTPUT :
+I love python
+
