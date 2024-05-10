@@ -1,0 +1,52 @@
+Question : Difference between keywords and Identifiers ?
+Solution : 
+-> Python Keywords are some predefined and reserved words that have special meanings.
+-> Keywords are used to define the syntax of the coding.
+-> The keyword cannot be used as an identifier, function, or variable name.
+-> All the keywords in Python are written in lowercase except True and False. 
+-> There are 35 keywords in Python 3.11.
+
+Python has iskeyword() function to check if any string is a keyword.
+The name of the keywords in Python acn also be checked by using the kwlist attribute of the keyword module.
+
+# code
+import keyword
+
+print(keyword.kwlist)
+
+# ## OUTPUT 
+# ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del',
+#   'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is',... ]
+
+
+IDENTIFIERS
+
+-> Identifier is a user-defined name given to a variable, function, class, module, etc. 
+-> The identifier is a combination of character, digits and an underscore. 
+-> They are case-sensitive. 
+-> We can also use the Python string isidentifier() method to check whether a string is a valid identifier or not.
+
+Rules for Naming Identifiers
+=> It cannot be a reserved python keyword.
+=> It should not contain white space.
+=> It can be a combination of A-Z, a-z, 0-9, or underscore.
+=> It should start with an alphabet character or an underscore ( _ ).
+=> It should not contain any special character other than an underscore ( _ ).
+
+Question 2 : What is namespace in Python
+solution : 
+A namespace is a system that has a unique name for each and every object in Python.
+An object might be a variable or a method. 
+Python itself maintains a namespace in the form of a Python dictionary.
+It is like a container that holds identifiers (names of variables, functions, classes, etc.) and maps them to their corresponding objects.
+It acts as a boundary, ensuring that names are unique and avoiding naming conflicts. 
+
+Python provides multiple types of namespaces:
+
+1. Local Namespace =: refers to the names defined within a function.
+
+2. Enclosing Namespace =: Corresponds to the namespaces of enclosing functions (for nested functions).
+
+3. Global Namespace =: Encompasses the names defined at the top level of a module or script.
+
+4. Built-in Namespace =: Contains the names of built-in Python functions and objects.
