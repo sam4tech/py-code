@@ -4,5 +4,3 @@ for i in range (99, 3, -1) :
     # print(i)
     if (i%5 == 0 and i%7 == 0) :
         print(i, end = " ")
-    # else :
-    #     print("", end = " ")
