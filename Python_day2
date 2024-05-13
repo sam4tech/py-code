@@ -6,6 +6,7 @@ Solution:
 Compares the equality of objects  | Checks if different variables are pointing to same object in memory.
 
 
+==============================================================================================================
 
 Question 2 : XOR operators 
 
@@ -96,7 +97,7 @@ OUTPUT :
 Me too.
 I love python
 
-
+==============================================================================================================
 
 Question : STRING INDEXING AND SLICING
 

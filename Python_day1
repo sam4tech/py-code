@@ -103,3 +103,5 @@ Datatypes that cannot be modified or if there state cannot be changed those obje
 So when Mutable objects are passed to the function call then it is treated as ''call by value.''
 
 And When Immutable objects are passed to the function call and there value is modified then it is treated as ''call by reference.''
+
+
