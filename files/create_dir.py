@@ -3,7 +3,6 @@ from datetime import datetime
 
 import os
 
-
 print("1. Print current system time. ")
 print("2. Create a folder with name. ")
 print("3. Create a file with name. ")
