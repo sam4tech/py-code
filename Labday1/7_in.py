@@ -16,10 +16,10 @@ for i in range(0, n):
  
 print(lst)
 
-x = 7
+x = 9
 
-# for i in lst :
-if(i == x) :
-    print("true")
-else :
-    print("False")
+for i in lst :
+    if i == x :
+        print("true")
+    else :
+        print("False")

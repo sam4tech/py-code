@@ -10,6 +10,6 @@ wholename = firstname + '.' + lastname
 print(wholename)
 
 ## OUTPUT
-Enter first name : sam
-Enter last name : sonker
-sam.sonker
+# Enter first name : sam
+# Enter last name : sonker
+# sam.sonker

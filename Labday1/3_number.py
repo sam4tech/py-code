@@ -12,5 +12,5 @@ else :
 
 
 ## OUTPUT
-Enter the number : 50
-Incorrect, Keep trying...
+# Enter the number : 50
+# Incorrect, Keep trying...
