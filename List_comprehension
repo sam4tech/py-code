@@ -1,0 +1,19 @@
+# List comprehension :  
+#A Python list comprehension consists of brackets containing the expression, 
+# which is executed for each element along with the for loop to iterate over each element in the Python list.
+
+# Syntax: newList = [ expression(element) for element in oldList if condition ] 
+
+numbers = [1, 2, 3, 4, 5] 
+squared = [x ** 2 for x in numbers] 
+print(squared)
+
+#output
+# [1, 4, 9, 16, 25]
+
+
+matrix = [[j for j in range(3)] for i in range(3)] 
+    
+print(matrix)
+
+#[[0, 1, 2], [0, 1, 2], [0, 1, 2]]
