@@ -1,3 +1,11 @@
+# List in python
+
+# # The list is written as a list of comma-separated values (items) between square brackets. 
+# Items in a list need not be of the same type.
+# List is a mutable data type means elements can be changed.
+# The first element of the list is stored at index 0 and the last element is stored at the location n-1 where n is the size of list. 
+# Also when a list is printed then no need to print each element separately we just need to pass name of list to print() function.
+
 mylist = [10,20,"hello"]
 
 print(type(mylist)) 
