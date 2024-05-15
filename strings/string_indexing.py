@@ -36,6 +36,9 @@ print(state[-1:-4:])  # NO OUTPUT
 
 print(state[-1:-4:-1])  # NO OUTPUT
 
-print(state[0:-6:])  # NO OUTPUT
+print(state[0:-6:])  # RAJ
+
+
+
 
 
