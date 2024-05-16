@@ -1,0 +1,78 @@
+# question : shallow copy vs deep copy
+# Solution :  
+
+
+ls1 = [1, 4, 8, 10]
+print (ls1)
+
+ls2 = ls1
+
+print(ls2)
+
+print(ls2) 
+ls2[1] = 1000   #changes in ls2 will also reflect in ls1 bcoz both the variabe are actually referring to the same memory location, so changes in one will also reflect in another.
+
+
+print (ls1)  # [1, 1000, 8, 10]
+
+print(ls2)   # [1, 1000, 8, 10]
+
+# shallow copy
+lst1 = [1,2,3,4]
+lst2 = lst1.copy()  # it makes different memory location so changes doesnt reflect on first one.
+
+print(lst1, lst2)
+
+lst2[1] = 2000
+
+print(lst1, lst2)
+
+# shallow copy with nested lists (changes the value of the element  )
+lst1 = [[1,2,3,4], [5,6,7,8]]
+lst2 = lst1.copy()
+
+print(lst1)
+print(lst2)
+
+lst1[1][0]= 500
+print(lst1)
+print(lst2)
+
+lst1.append ([5,7,6,3])
+print(lst1)      # [[1, 2, 3, 4], [500, 6, 7, 8], [5, 7, 6, 3]]
+print(lst2)      # [[1, 2, 3, 4], [500, 6, 7, 8]]
+# item appended is not copied but the changes in the object present inside the list is reflected.
+
+
+#DEEP copy   = > 
+import copy
+list1 = [4,8,6,2]
+list2 = copy.deepcopy(list1)
+
+print(list1)    # [4, 8, 6, 2]
+print(list2)     # [4, 8, 6, 2]
+# in a normal list, shallow copy == deep copy
+         
+list2[1] = 400
+print(list1)   # [4, 8, 6, 2]
+print(list2)  # [4, 400, 6, 2]
+
+
+mylist1 = [[1,2,3],[4,5,6],[7,8,9]]
+mylist2 = copy.deepcopy(mylist1)
+
+mylist2[1][0]= 900
+print(mylist1)      # [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(mylist2)      # [[1, 2, 3], [900, 5, 6], [7, 8, 9]]
+
+## SHALLOw copy is NOT EQUAL TO  DEEP copy in nested lists.
+ ## value is not copied in list1 so changes only reflected in mylist2 and not in mylist1 bcoz they have DIFFERENT memory locations
+
+
+
+
+
+
+
+
+
