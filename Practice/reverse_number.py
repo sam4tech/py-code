@@ -4,17 +4,18 @@
 
 
 
-num = int (input("Enter first number :"))
-# num = 7536
+# num = int (input("Enter first number :"))
+num = 7536
+tmp = num
 sum = 0
 
 while num > 0:
     rem = num % 10
-    sum = sum *10 + rem
+    sum = sum * 10 + rem
     num //= 10    
 
 # reverse_number = num [ : : -1]
 # print(reverse_number )
-print(f"original : {num}")
+print(f"original : {tmp}")
 
 print(f"reverse : {sum}")
