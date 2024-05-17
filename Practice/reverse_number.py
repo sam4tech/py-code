@@ -18,4 +18,6 @@ while num > 0:
 # print(reverse_number )
 print(f"original : {tmp}")
 
-print(f"reverse : {sum}")
+print(f"reverse :  {sum}")
+print(" ".join(str(sum)))
+# print (str(sum).split()) ==> converts string to list
