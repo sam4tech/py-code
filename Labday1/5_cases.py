@@ -3,8 +3,9 @@
 # O/p : hELLO hOW aRE yOU
 
 
-str = input ("Enter any string : ")
+# str = input ("Enter any string : ")
 
+str = 'hELLO hOW aRE yOU'
 print(" Swap all cases in the string : ", str.swapcase())
 
 
