@@ -1,7 +1,7 @@
 # 2. Write a program that take a user input of three angles and will find out whether it can
 # form a triangle or not.
 
-
+# map( func, ['10'])
 x, y, z = map(int,input("Enter the three angles : ").split(','))
 print("Angle 1: ", x)
 print("Angle 2: ", y)

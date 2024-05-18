@@ -18,3 +18,10 @@ else :
     amount = total_income - 20000
     tax = (amount * 20) / 100  + (10000 * 10) / 100
     print(tax)
+
+
+##output
+
+# What's your annual income?
+# >>> 45000
+# 6000.0
